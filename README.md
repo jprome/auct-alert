@@ -1,4 +1,4 @@
-# Auction Alerts - 14-Day Minimum Value Loop
+# Auction Alerts 
 
 A system that turns messy fragmented auction data into actionable alerts, focused on estate/furniture auctions in Florida.
 
