@@ -1,0 +1,34 @@
+# =============================================================================
+# Auction Alerts - Python Dependencies
+# =============================================================================
+# Install with: pip install -r requirements.txt
+
+# Core
+python-dotenv>=1.0.0       # Environment variable management
+requests>=2.31.0           # HTTP requests for scraping
+beautifulsoup4>=4.12.0     # HTML parsing
+lxml>=4.9.0                # Fast XML/HTML parser (optional but recommended)
+
+# Browser automation (for JavaScript-rendered sites)
+playwright>=1.40.0         # Modern browser automation (HiBid, GovDeals)
+
+# Database
+supabase>=2.0.0            # Supabase Python client
+
+# Email
+sendgrid>=6.10.0           # SendGrid email API (optional, for production)
+
+# Scheduling
+APScheduler>=3.10.0        # Job scheduling
+
+# Web server (for click tracking)
+Flask>=3.0.0               # Lightweight web framework
+
+# Development
+pytest>=7.4.0              # Testing
+pytest-cov>=4.1.0          # Test coverage
+black>=23.0.0              # Code formatting
+flake8>=6.1.0              # Linting
+
+# Type hints
+typing-extensions>=4.8.0   # Backport of typing features
